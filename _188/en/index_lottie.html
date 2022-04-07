@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/style.css?vs=5c6cdfff070" />
+    <title>Announcement Page</title>
+    <style>
+      .learn-more{
+        height: 48px;
+        line-height: 48px;
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        background: white;
+        width: calc(100% - 42px);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="announcement-full">
+      <div class="announcement-page">
+        <div id="announcement-overlay" class="announcement-overlay"></div>
+        <div id="announcement-container" class="announcement-container">
+          <div id="announcement">
+            <header class="announcement-header" id="shadow-header">
+              <!-- New Sportsbook -->
+              <h3 class="truncate" id="new_sportsbook"></h3>
+              <button id="close-button" class="close-button">
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd" fill-opacity=".24">
+                    <path d="M-8-8h32v32H-8z" />
+                    <path
+                      d="M15.183.41l.516.604a.5.5 0 01-.03.68L9.276 8l6.393 6.306a.5.5 0 01.03.68l-.516.606a.5.5 0 01-.731.031L8 9.26l-6.452 6.363a.5.5 0 01-.731-.031L.3 14.986a.5.5 0 01.03-.68l6.392-6.307L.331 1.695a.5.5 0 01-.03-.68L.817.408a.5.5 0 01.731-.031L8 6.74 14.452.378a.5.5 0 01.731.031z"
+                      fill="#000"
+                      fill-rule="nonzero"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </header>
+
+            <div class="announcement-body" id="scroll-body">
+              <!-- ANNOUNCEMENT FEATURE #1 -->
+              <div class="announcement-feature">
+                <header class="feature-header" id="feature_1_header"></header>
+                <div class="feature-content" id="feature_1_content"></div>
+                <div class="feature-image">
+                  
+                  <lottie-player class="lottie" mode="normal"></lottie-player>
+                </div>
+              </div>
+
+
+              <div class="learn-more">
+                <a id="learn-more-link" href="#" rel="noopener noreferrer"></a>
+              </div>
+              <div class="announcement-footer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+    <script src="../../js/script.js?vs=5c6cdfff070" charset="utf-8"></script>
+    <script src="../../js/trans.js?vs=5c6cdfff070"></script>
+    <script src="../../js/lottieScript.js?vs=5c6cdfff070" charset="utf-8"></script>
+  </body>
+</html>
